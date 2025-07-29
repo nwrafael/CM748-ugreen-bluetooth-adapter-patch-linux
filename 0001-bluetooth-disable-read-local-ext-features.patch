@@ -1,0 +1,20 @@
+--- a/net/bluetooth/hci_sync.c	2025-07-28 20:25:38.718355109 -0300
++++ b/net/bluetooth/hci_sync.c	2025-07-28 20:30:02.004160831 -0300
+@@ -3960,8 +3960,6 @@
+ 	HCI_INIT(hci_write_inquiry_mode_sync),
+ 	/* HCI_OP_READ_INQ_RSP_TX_POWER */
+ 	HCI_INIT(hci_read_inq_rsp_tx_power_sync),
+-	/* HCI_OP_READ_LOCAL_EXT_FEATURES */
+-	HCI_INIT(hci_read_local_ext_features_1_sync),
+ 	/* HCI_OP_WRITE_AUTH_ENABLE */
+ 	HCI_INIT(hci_write_auth_enable_sync),
+ 	{}
+@@ -4252,8 +4250,6 @@
+ 	HCI_INIT(hci_read_def_err_data_reporting_sync),
+ 	/* HCI_OP_READ_PAGE_SCAN_TYPE */
+ 	HCI_INIT(hci_read_page_scan_type_sync),
+-	/* HCI_OP_READ_LOCAL_EXT_FEATURES */
+-	HCI_INIT(hci_read_local_ext_features_all_sync),
+ 	{}
+ };
+ 
