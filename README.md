@@ -8,7 +8,7 @@ This patch is based entirely on the work of [this AskUbuntu answer](https://asku
 
 ### On CachyOS
 
-1. Download the patch file (`0001-bluetooth-disable-read-local-ext-features.patch`).  
+1. Download the patch file ([`0001-bluetooth-disable-read-local-ext-features.patch`](https://github.com/nwrafael/CM748-ugreen-bluetooth-adapter-patch-linux/releases/download/V1.0/0001-bluetooth-disable-read-local-ext-features.patch).  
 2. Open **CachyOS Kernel Manager**.  
 3. Select your currently active kernel (it’s usually checked by default).  
 4. Click **Configure**, then switch to the **Patches** tab.  
