@@ -21,9 +21,4 @@ This patch is based entirely on the work of [this AskUbuntu answer](https://asku
 
 ### On Other Distributions
 
-If your distro doesn’t provide a kernel-manager GUI, you’ll need to apply and build the patch manually:
-
-1. Place `0001-bluetooth-disable-read-local-ext-features.patch` in your kernel source directory.  
-2. From that directory, run:  
-   ```bash
-   patch -p1 < 0001-bluetooth-disable-read-local-ext-features.patch
+If your distro doesn’t provide a kernel-manager GUI, you’ll need to apply and build the kernel manually.
